@@ -1,0 +1,19 @@
+
+.projects{
+    max-width: 1340px;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+    background-color: white;
+}
+
+.projectContainer img{
+    border: 1px solid black;
+    border-radius: 2rem;;
+}

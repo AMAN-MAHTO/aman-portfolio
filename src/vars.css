@@ -1,0 +1,17 @@
+/* it contain all the variables used in the project */
+:root{
+    /* Color variables */
+    --color-text: #000000;
+    --color-background: #ffffff;
+    --color-primary: #869493;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-info: #17a2b8;
+
+    /* Font variables */
+    --font-family: "Bricolage Grotesque", sans-serif;
+}
+
+
