@@ -13,7 +13,10 @@ function App() {
         <div className={styles.quickCardsContainer}>
           <QuickCards />
         </div>
-        <Projects />
+        <div className={styles.projectsContainer}>
+          <Projects />
+        </div>
+        
       </div>
     </div>
   );

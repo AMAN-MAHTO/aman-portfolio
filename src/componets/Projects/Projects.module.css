@@ -1,19 +1,82 @@
 
 .projects{
     max-width: 1340px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;;
+}
+.projectSection{
+    max-width: 1340px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
-.projectContainer {
+
+.projectsIntro{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projectsIntroDescp{
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.project {
+    padding: 60px;
   display: flex;
   flex-direction: row;
+  gap: 10rem;
   justify-content: space-between;
-  padding: 20px;
   border: 1px solid black;
   border-radius: 0.5rem;
     background-color: white;
 }
 
-.projectContainer img{
+.project img{
     border: 1px solid black;
     border-radius: 2rem;;
+    max-width: 600px;
+    width: 50vw;
+    height: 50wh;
+}
+
+.viewProjectButton{
+    display: flex;
+    margin-right: auto;
+    padding: 16px 25px 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.projects h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.projects h6{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.projects p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
