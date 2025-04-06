@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./App.module.css";
 import { Navbar } from "./componets/Navbar/Navbar";
 import { Intro } from "./componets/Intro/Intro";
