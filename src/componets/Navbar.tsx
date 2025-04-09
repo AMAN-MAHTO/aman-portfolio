@@ -1,9 +1,11 @@
-
 export const Navbar = () => {
   return (
-    <div className="flex flex-col items-center justify-center  bg-[#e3e3ff] px-10 pt-10">
-      <div className="flex  justify-between w-full  max-w-7xl px-8 md:px-10 py-4 border rounded-full bg-white">
-        <a className="flex text-2xl font-medium items-center" href="/">
+    <div className="sticky top-5 flex flex-col items-center justify-center  px-5 z-2">
+      <div className=" flex  justify-between w-full  max-w-7xl px-8 md:px-10 py-4 border rounded-full bg-white">
+        <a
+          className="flex text-xl md:text-2xl font-medium items-center"
+          href="/"
+        >
           Mahto
         </a>
         <ul className="hidden md:flex flex-row gap-5 md:gap-10 lg:gap-15">

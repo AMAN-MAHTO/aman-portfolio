@@ -2,7 +2,7 @@ export const Intro = () => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center bg-[#e3e3ff]">
-        <div className="flex flex-col items-center justify-between pt-8 md:pt-20 pb-50 md:pb-40 mx-auto max-w-7xl">
+        <div className="flex flex-col items-center justify-between pt-8 md:pt-14 pb-50 lg:pb-40 mx-auto max-w-7xl">
           <div className="flex flex-col items-center justify-center p-10 md:py-10">
             <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 lg:gap-40">
               <div className="flex flex-col gap-5  lg:gap-10 text-center md:text-left">
@@ -22,9 +22,7 @@ export const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full">
-        <img src="/assets/grunge_divider.svg" alt="aman" />
-      </div>
+    
     </div>
   );
 };
