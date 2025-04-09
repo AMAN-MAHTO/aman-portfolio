@@ -1,4 +1,16 @@
 import { projectsData } from "../utils";
+const sections = document.querySelectorAll(".section");
+
+window.addEventListener("scroll", () => {
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top <= 150 && rect.bottom > 150) {
+      section.classList.add("shrink");
+    } else {
+      section.classList.remove("shrink");
+    }
+  });
+});
 
 export const Projects = () => {
   return (
@@ -11,10 +23,12 @@ export const Projects = () => {
           Here are some of my projects that I have worked on.
         </p>
       </div>
+
       {projectsData.map((projects, index) => (
         <div
           key={index}
-          className="flex flex-col-reverse md:flex-row 
+          className="section
+          flex flex-col-reverse md:flex-row 
           items-center justify-center lg:justify-between
           md:gap-10 lg:gap-20 border rounded-2xl p-10 my-5 lg:my-10 lg:p-20"
         >

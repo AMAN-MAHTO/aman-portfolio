@@ -1,8 +1,8 @@
 export const ContactMe = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-20 max-w-7xl mx-auto  max-w-lg">
+    <div className="flex flex-col items-center justify-center py-20 px-10 max-w-7xl mx-auto  max-w-lg">
       <img></img>
-      <h1 className="text-4xl font-medium  lg:text-5xl text-center mb-8 md:mb-12 text-white">
+      <h1 className="text-4xl font-medium  lg:text-5xl text-center  mb-8 md:mb-12 text-white">
         Let's talk about your next project.
       </h1>
       <p className="text-xl  lg:text-2xl text-center text-gray-900 mb-5 md:mb-10 text-white">
