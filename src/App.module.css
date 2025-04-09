@@ -1,5 +1,5 @@
 .App{
-    display: flex;;
+    display: flex;
     height: 100%;
     width: 100%;
     padding-top: 67px;
@@ -27,4 +27,5 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 

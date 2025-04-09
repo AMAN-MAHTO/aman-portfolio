@@ -1,6 +1,6 @@
 import styles from "./App.module.css";
-import { Navbar } from "./componets/Navbar/Navbar";
-import { Intro } from "./componets/Intro/Intro";
+import { Navbar } from "./componets/Navbar";
+import { Intro } from "./componets/Intro";
 import { QuickCards } from "./componets/QuickCards/QuickCards";
 import { Projects } from "./componets/Projects/Projects";
 

@@ -1,6 +1,19 @@
-* {
+/* * {
   box-sizing: border-box;
   margin:0;
   padding:0;
   font-family: "Roboto", sans-serif;
+} */
+
+@import "tailwindcss";
+
+.iconBtn {
+  @apply border rounded-xl p-3 bg-white hover:bg-gray-100;
+  transition: background-color 0.3s ease;
+
+}
+
+.menuItem{
+  @apply flex items-center font-medium text-lg text-gray-900 hover:text-gray-700;
+   transition: duration-300 ease-in-out;
 }
