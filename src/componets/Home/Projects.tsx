@@ -1,4 +1,4 @@
-import { projectsData } from "../utils";
+import { projectsData } from "../../utils";
 const sections = document.querySelectorAll(".section");
 
 window.addEventListener("scroll", () => {
