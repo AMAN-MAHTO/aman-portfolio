@@ -24,3 +24,28 @@ export const projectsData = [
     link: "", // Add your project link here
   },
 ];
+
+export type Experience = {
+  title: string;
+  company: string;
+  sDate: string;
+  eDate: string;
+  description: string;
+};
+
+export const experiences: Experience[] = [
+  {
+    title: "Android Developer Intern",
+    company: "Elkdocs",
+    sDate: "2024-08-01",
+    eDate: "2024-09-01",
+    description: "Developed 20+ custom animations using Canvas and Jetpack Compose, enhancing UI and user interaction.",
+  },
+  {
+    title: "Tech Developer Intern ",
+    company: "Atal Incubation Centre - GGSIPU",
+    sDate: "2024-07-01",
+    eDate: "2024-07-30",
+    description: "Developed the UI for an EdTech Flutter app, enhancing user experience",
+  },
+];

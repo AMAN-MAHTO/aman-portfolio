@@ -1,7 +1,7 @@
 import styles from "./App.module.css";
 import { Navbar } from "./componets/Home/Navbar";
 import { Intro } from "./componets/Home/Intro";
-import { QuickCards } from "./componets/Home/QuickCards";
+import { ExperienceSection } from "./componets/Home/QuickCards";
 import { Projects } from "./componets/Home/Projects";
 import { AboutMe } from "./componets/Home/AboutMe";
 import { ContactMe } from "./componets/Home/ContactMe";
@@ -18,7 +18,7 @@ const HomeSec = () => {
         </div>
 
         <div className="flex flex-row -mt-50 mb-10  items-center mx-auto justify-center ">
-          <QuickCards />
+          <ExperienceSection />
         </div>
 
         <Projects />
@@ -45,17 +45,6 @@ const ContactSec = () => {
 };
 
 function App() {
-  // let component;
-  // switch (window.location.pathname) {
-  //   case "/":
-  //     component = <HomeSec />;
-  //     break;
-  //   case "/contact":
-  //     component = <ContactSec />;
-  //     break;
-  //   default:
-  //     component = <HomeSec />;
-  // }
   return (
     <div className={styles.App}>
       <div className="flex flex-col pt-10 bg-[#e3e3ff]">
