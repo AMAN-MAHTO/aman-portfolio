@@ -1,12 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
-import { Navbar } from "./componets/Home/Navbar";
-import { Intro } from "./componets/Home/Intro";
-import { ExperienceSection } from "./componets/Home/QuickCards";
-import { Projects } from "./componets/Home/Projects";
+import { Contact } from "./componets/Contact/Contact";
 import { AboutMe } from "./componets/Home/AboutMe";
 import { ContactMe } from "./componets/Home/ContactMe";
-import { Contact } from "./componets/Contact/Contact";
-import { Route, Routes } from "react-router-dom";
+import { Intro } from "./componets/Home/Intro";
+import { Navbar } from "./componets/Home/Navbar";
+import { Projects } from "./componets/Home/Projects";
+import { ExperienceSection } from "./componets/Home/QuickCards";
+
+<Route path="/projects/:id" element={<Projects />} />
+
 
 const HomeSec = () => {
   return (

@@ -7,7 +7,7 @@ export const Intro = () => {
             <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 lg:gap-40">
               <div className="flex flex-col gap-5  lg:gap-10 text-center md:text-left">
                 <h1 className="text-4xl md:text-5xl lg:text-7xl md:text-left">
-                  Hello! I am aman an mobile app dev
+                  Hello! I am Aman a mobile app dev
                 </h1>
                 <p className="text-xl  lg:2xl text-gray-900">
                   I am an Android developer skilled in Java and Kotlin, creating

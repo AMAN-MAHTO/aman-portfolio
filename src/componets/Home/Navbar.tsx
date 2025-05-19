@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div className="sticky top-5 flex flex-col items-center justify-center  px-5 z-200">
-      <div className=" flex  justify-between w-full  max-w-7xl px-8 md:px-10 py-4 border rounded-full bg-white">
+    <div className="sticky top-5 flex flex-col items-center justify-center px-5 z-200">
+      <div className="flex justify-between w-full max-w-7xl px-8 md:px-10 py-4 border rounded-full bg-white">
         <Link
           className="flex text-xl md:text-2xl font-medium items-center"
           to="/"
         >
-          Mahto
+          Home
         </Link>
         <ul className="hidden md:flex flex-row gap-5 md:gap-10 lg:gap-15">
           <li className="menuItem">
@@ -25,13 +25,13 @@ export const Navbar = () => {
         <div>
           <ul className="flex flex-row gap-5 md:gap-8">
             <li className="iconBtn">
-              <a href="/twitter">
-                <img src="https://cdn.prod.website-files.com/6659affa71a3c7c8796f55fd/6659be11894839cb247ecf64_icon-twitter.svg"></img>
+              <a href="https://x.com/amahto848?t=glBqOq64V5tcObg_34MvuA&s=09"> 
+                <img src="https://cdn.prod.website-files.com/6659affa71a3c7c8796f55fd/6659be11894839cb247ecf64_icon-twitter.svg" />
               </a>
             </li>
             <li className="iconBtn">
-              <a href="/instagram">
-                <img src="https://cdn.prod.website-files.com/6659affa71a3c7c8796f55fd/6659be3dd8d82b641710d4f1_icon-instagram.svg"></img>
+              <a href="https://www.instagram.com/_amahto?igsh=MXU4d3RwZXFodTN1eQ==">
+                <img src="https://cdn.prod.website-files.com/6659affa71a3c7c8796f55fd/6659be3dd8d82b641710d4f1_icon-instagram.svg" />
               </a>
             </li>
           </ul>
