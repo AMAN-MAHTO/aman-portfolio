@@ -26,7 +26,64 @@ export const AboutMe = () => {
         </div>
       </div>
 
-      
+      <div className="flex flex-col items-center justify-center p-10 max-w-7xl mx-auto">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-center mb-2 md:mb-5">
+          My Core Skills
+        </h1>
+        <p className="text-xl  lg:text-2xl text-center mb-5 md:mb-10 text-gray-700">
+          Here are some of the skills I have acquired over the years.
+        </p>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+          <div className="flex flex-row items-center rounded-4xl border gap-5 pl-5 pr-5 bg-white">
+            <img
+              className="w-6 h-auto object-cover "
+              src="/assets/kotlin.jpeg"
+              alt="Kotlin"
+            />
+            <p className="text-center text-gray-900 text-lg">Kotlin</p>
+          </div>
+          <div className="flex flex-row items-center rounded-4xl border gap-5 p-3 pl-5 pr-5 bg-white">
+            <img
+              className="w-6 h-auto object-cover "
+              src="/assets/java.png"
+              alt="Java"
+            />
+            <p className="text-center text-gray-900 text-xl">Java</p>
+          </div>
+          <div className="flex flex-row items-center rounded-4xl border gap-5 p-3 pl-5 pr-5 bg-white">
+            <img
+              className="w-6 h-auto object-cover "
+              src="/assets/compose.png"
+              alt="Jetpack Compose"
+            />
+            <p className="text-center text-gray-900 text-xl">Jetpack Compose</p>
+          </div>
+          <div className="flex flex-row items-center rounded-4xl border gap-5 p-3 pl-5 pr-5 bg-white">
+            <img
+              className="w-6 h-auto object-cover "
+              src="/assets/firebase.png"
+              alt="Firebase"
+            />
+            <p className="text-center text-gray-900 text-xl">Firebase</p>
+          </div>
+          <div className="flex flex-row items-center rounded-4xl border gap-5 p-3 pl-5 pr-5 bg-white">
+            <img
+              className="w-6 h-auto object-cover "
+              src="/assets/flutter.png"
+              alt="Flutter"
+            />
+            <p className="text-center text-gray-900 text-xl">Flutter</p>
+          </div>
+          <div className="flex flex-row items-center rounded-4xl border gap-5 p-3 pl-5 pr-5 bg-white">
+            <img
+              className="w-6 h-auto object-cover "
+              src="/assets/nodejs.png"
+              alt="Node.js"
+            />
+            <p className="text-center text-gray-900 text-xl">Node.js</p>
+          </div>
+        </div>
+    </div>
     </div> 
   );
 };

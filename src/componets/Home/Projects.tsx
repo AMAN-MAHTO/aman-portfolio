@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { projectsData } from "../../utils";
-const sections = document.querySelectorAll(".section");
 
 
 export const Projects = () => {
