@@ -7,11 +7,11 @@ export const Intro = () => {
             <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 lg:gap-40">
               <div className="flex flex-col gap-5  lg:gap-10 text-center md:text-left">
                 <h1 className="text-4xl md:text-5xl lg:text-7xl md:text-left">
-                  Hello! I am aman an mobile app dev
+                  Hello! I'm Aman, an Android Developer
                 </h1>
                 <p className="text-xl  lg:2xl text-gray-900">
-                  I am an Android developer skilled in Java and Kotlin, creating
-                  efficient and user-friendly mobile apps. Let's connect!
+                  Passionate about crafting <strong>smooth, intuitive</strong> mobile apps using Java and <strong>Kotlin</strong>.
+                   Always eager to <strong>collaborate</strong> and build meaningful digital experiences.
                 </p>
               </div>
               <img

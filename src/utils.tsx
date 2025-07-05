@@ -1,29 +1,63 @@
 export const projectsData = [
   {
+    id: "ocean-note",
     title: "Ocean Note",
     subtitle: "Real-Time Collaboration, Advanced Note Management",
     description:
       "Integrated Google Authentication, real-time collaborative editing, sharing, and access control for notes. Designed smooth UI interactions with custom animations.",
     image: "/assets/p1.png",
-    link: "https://github.com/AMAN-MAHTO/Ocean-Note", // Add your project link here
+    link: "https://github.com/AMAN-MAHTO/Ocean-Note",
+    github: "https://github.com/AMAN-MAHTO/Ocean-Note",
+    screenshots: ["/assets/p1.png"],
   },
   {
+    id: "Marvel-Comic",
+    title: "Marvel-Comic App",
+    subtitle: "UI Design, API Integration",
+    description:
+      "Comprehensive collection of series, stories, characters, and comics with seamless navigation.",
+    image: "/assets/p3.png",
+    link: "https://github.com/AMAN-MAHTO/Marvel-Comics",
+    github: "https://github.com/AMAN-MAHTO/Marvel-Comics",
+    screenshots: ["/assets/p3.png"],
+  },
+  {
+    id: "task-manager",
     title: "TaskManager App",
     subtitle: "Local Database, MDC Android, Progress Tracing system",
     description:
       "Track progress with a horizontal date selector. Create, delete, and update tasks easily. Simplified ’yes/no’ habit tracking.",
     image: "/assets/p2.png",
-    link: "", // Add your project link here
+    link: "https://github.com/AMAN-MAHTO/TaskManager",
+    github: "https://github.com/AMAN-MAHTO/TaskManager",
+    screenshots: ["/assets/p2.png"],
   },
   {
-    title: "TaskManager App",
-    subtitle: "Local Database, MDC Android, Progress Tracing system",
+    id: "3d-compass",
+    title: "3D Compass App",
+    subtitle: "Sensor Integration, Real-Time 3D Rendering",
     description:
-      "Track progress with a horizontal date selector. Create, delete, and update tasks easily. Simplified ’yes/no’ habit tracking.",
-    image: "/assets/p2.png",
-    link: "", // Add your project link here
+      "A compass app using real-time sensor data and 3D rendering for immersive navigation.",
+    image: "/assets/image.png",
+    link: "https://github.com/AMAN-MAHTO/3DCompass",
+    github: "https://github.com/AMAN-MAHTO/3DCompass",
+    screenshots: ["/assets/image.png"],
   },
+  {
+    id: "Weather App",
+    title: "Weather App",
+    subtitle: "Geolocation or Location-Based System, API Integration",
+    description:
+      "Designed an intuitive user interface for location-based weather updates, showing current weather conditions and weekly forecasts",
+    image: "/assets/p4.png",
+    link: "https://github.com/AMAN-MAHTO/3DCompass",
+    github: "https://github.com/AMAN-MAHTO/3DCompass",
+    screenshots: ["/assets/p4.png"],
+  },
+
+  
 ];
+
 
 export type Experience = {
   title: string;
