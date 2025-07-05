@@ -25,7 +25,7 @@ export const AboutMe = () => {
           </li>
         </div>
       </div>
-
+{/* 
       <div className="flex flex-col items-center justify-center p-10 max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl text-center mb-2 md:mb-5">
           My Core Skills
@@ -83,7 +83,7 @@ export const AboutMe = () => {
             <p className="text-center text-gray-900 text-xl">Node.js</p>
           </div>
         </div>
-    </div>
+    </div> */}
     </div> 
   );
 };
