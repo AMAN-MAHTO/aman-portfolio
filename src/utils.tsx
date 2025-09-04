@@ -11,15 +11,15 @@ export const projectsData = [
     screenshots: ["/assets/p1.png"],
   },
   {
-    id: "Marvel-Comic",
-    title: "Marvel-Comic App",
-    subtitle: "UI Design, API Integration",
+    id: "otaku-flip",
+    title: "Otaku Flip",
+    subtitle: "Anime-Themed Memory Card Game",
     description:
-      "Comprehensive collection of series, stories, characters, and comics with seamless navigation.",
-    image: "/assets/p3.png",
-    link: "https://github.com/AMAN-MAHTO/Marvel-Comics",
-    github: "https://github.com/AMAN-MAHTO/Marvel-Comics",
-    screenshots: ["/assets/p3.png"],
+      "Built an anime-themed memory card game. Added background music, sound effects, and smooth flip animations for engaging gameplay experience.",
+    image: "/assets/p5.png",
+    link: "https://github.com/AMAN-MAHTO/OtakuFlip",
+    github: "https://github.com/AMAN-MAHTO/OtakuFlip",
+    screenshots: ["/assets/p5.png"],
   },
   {
     id: "task-manager",
@@ -42,6 +42,17 @@ export const projectsData = [
     link: "https://github.com/AMAN-MAHTO/3DCompass",
     github: "https://github.com/AMAN-MAHTO/3DCompass",
     screenshots: ["/assets/image.png"],
+  },
+  {
+    id: "Marvel-Comic",
+    title: "Marvel-Comic App",
+    subtitle: "UI Design, API Integration",
+    description:
+      "Comprehensive collection of series, stories, characters, and comics with seamless navigation.",
+    image: "/assets/p3.png",
+    link: "https://github.com/AMAN-MAHTO/Marvel-Comics",
+    github: "https://github.com/AMAN-MAHTO/Marvel-Comics",
+    screenshots: ["/assets/p3.png"],
   },
   {
     id: "Weather App",
@@ -72,7 +83,7 @@ export const experiences: Experience[] = [
     title: "Android Developer Intern",
     company: "Elkdocs",
     sDate: "2024-08-01",
-    eDate: "2024-09-01",
+    eDate: "2024-11-01",
     description: "Developed 20+ custom animations using Canvas and Jetpack Compose, enhancing UI and user interaction.",
   },
   {
