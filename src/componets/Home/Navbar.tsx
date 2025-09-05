@@ -11,12 +11,12 @@ export const Navbar = () => {
           Mahto
         </Link>
         <ul className="hidden md:flex flex-row gap-5 md:gap-10 lg:gap-15">
-          <li className="menuItem">
+          {/* <li className="menuItem">
             <Link to="/about">About</Link>
           </li>
           <li className="menuItem">
             <Link to="/projects">Projects</Link>
-          </li>
+          </li> */}
           <li className="menuItem">
             <Link to="/contact">Contact</Link>
           </li>
@@ -25,12 +25,12 @@ export const Navbar = () => {
         <div>
           <ul className="flex flex-row gap-5 md:gap-8">
             <li className="iconBtn">
-              <a href="/twitter">
+              <a href="https://x.com/amahto848">
                 <img src="https://cdn.prod.website-files.com/6659affa71a3c7c8796f55fd/6659be11894839cb247ecf64_icon-twitter.svg"></img>
               </a>
             </li>
             <li className="iconBtn">
-              <a href="/instagram">
+              <a href="https://www.instagram.com/_amahto/">
                 <img src="https://cdn.prod.website-files.com/6659affa71a3c7c8796f55fd/6659be3dd8d82b641710d4f1_icon-instagram.svg"></img>
               </a>
             </li>
